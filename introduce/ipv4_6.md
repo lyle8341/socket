@@ -16,5 +16,5 @@ PSH:(push传送)接收方应该尽快将这个报文交给应用层
 RST:(reset重置)重置连接  
 SYN:(synchronous建立联机)发起一个新连接  
 FIN:(finish结束)释放一个连接  
-![三次握手](/images/three.jpg "三次握手")
+![三次握手](/images/three.jpg "三次握手")  
 ![四次挥手](/images/four.jpg "四次挥手")
