@@ -10,12 +10,12 @@
 序号 :Seq(Sequence number顺序号码)  
 确认序号:Ack(Acknowledge number确认序号)  
 标志位:URG,ACK,PSH,RST,SYN,FIN  
-URG:紧急指针（urgent pointer）有效  
-ACK:(acknowledgement确认)确认序号有效  
-PSH:(push传送)接收方应该尽快将这个报文交给应用层  
-RST:(reset重置)重置连接  
-SYN:(synchronous建立联机)发起一个新连接  
-FIN:(finish结束)释放一个连接  
+URG:紧急位(urgent pointer)  
+ACK:确认位  
+PSH:(push传送)急迫位  
+RST:重置位  
+SYN:同步位
+FIN:(finish结束)终止位  
 ![三次握手](/images/three.jpg "三次握手")
 * * *
 ![四次挥手](/images/four.jpg "四次挥手")
